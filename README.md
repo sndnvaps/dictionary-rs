@@ -7,12 +7,13 @@
 add this line to Cargo.toml
 
 ```toml
-dictionary = "0.1.0"
+dictionary_rs = "0.1.0"
 ```
 
 from_iter_main.rs
 
 ```rust
+extern crate dictionary_rs as dictionary;
 use dictionary::Dictionary;
 
 fn main() {
@@ -29,6 +30,7 @@ fn main() {
 insert.rs
 
 ```rust
+extern crate dictionary_rs as dictionary;
 use dictionary::Dictionary;
 fn main() {
     let mut _d: Dictionary<u8, u8> = Dictionary::new();

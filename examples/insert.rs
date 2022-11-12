@@ -1,3 +1,4 @@
+extern crate dictionary_rs as dictionary;
 use dictionary::Dictionary;
 fn main() {
     let mut _d: Dictionary<u8, u8> = Dictionary::new();

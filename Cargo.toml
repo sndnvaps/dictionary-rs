@@ -1,5 +1,5 @@
 [package]
-name = "dictionary"
+name = "dictionary_rs"
 description = "dictionary is the key-value type for rust-lang"
 keywords = ["dictionary","indexmap","hashmap","key-value","std"]
 repository = "https://github.com/sndnvaps/dictionary-rs"

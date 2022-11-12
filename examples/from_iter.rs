@@ -1,3 +1,4 @@
+extern crate dictionary_rs as dictionary;
 use dictionary::Dictionary;
 
 fn main() {
