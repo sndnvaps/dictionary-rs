@@ -1,0 +1,15 @@
+[package]
+name = "dictionary"
+description = "dictionary is the key-value type for rust-lang"
+keywords = ["dictionary","indexmap","hashmap","key-value","std"]
+repository = "https://github.com/sndnvaps/dictionary-rs"
+authors = ["Samuel Freeman <admin@sndnvaps.com>"]
+license = "MIT/Apache-2.0"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+indexmap = "1.9.1"
