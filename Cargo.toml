@@ -4,6 +4,7 @@ description = "dictionary is the key-value type for rust-lang"
 keywords = ["dictionary","indexmap","hashmap","key-value","std"]
 repository = "https://github.com/sndnvaps/dictionary-rs"
 authors = ["Samuel Freeman <admin@sndnvaps.com>"]
+documentation = "https://docs.rs/dictionary_rs/"
 license = "MIT/Apache-2.0"
 version = "0.2.0"
 edition = "2021"
