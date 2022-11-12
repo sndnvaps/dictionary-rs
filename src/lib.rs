@@ -1,6 +1,3 @@
-#![feature(const_trait_impl)]
-#![feature(trivial_bounds)]
-
 extern crate indexmap;
 
 pub mod dictionary;
